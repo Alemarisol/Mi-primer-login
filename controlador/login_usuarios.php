@@ -22,8 +22,12 @@ if ($datos_usuario['clave'] !== $clave) {
     exit();
 }
 
-// Si el usuario y la contraseña son correctos
-$_SESSION['usuario'] = $correo;
+// Si el usuario y la contraseña son correctos, almacenar el id y correo en la sesión
+$_SESSION['usuario'] = [
+    'id' => $datos_usuario['id'],  // Usamos el campo id de la tabla usuarios
+    'correo' => $datos_usuario['correo']
+];
+
 header("location: ../index.php");
 exit();
 ?>

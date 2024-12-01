@@ -1,6 +1,6 @@
 <?php
 // Configuración de la conexión a la base de datos
-$servidor = "localhost"; // Servidor (generalmente localhost)
+$servidor = "localhost"; // Servidor 
 $usuario = "root";       // Usuario de la base de datos
 $contraseña = "";        // Contraseña del usuario
 $base_datos = "login_forobim1"; // Nombre de la base de datos

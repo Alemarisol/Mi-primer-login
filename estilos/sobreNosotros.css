@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header-sobre-nosotros {
+    background: linear-gradient(90deg, #0073e6, #4f9fff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-sobre-nosotros h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-sobre-nosotros p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Contenido */
+.contenido {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenido h2 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.contenido p, .contenido ul {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contenido ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.contenido ul li {
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contenido ul li:hover {
+    color: #0073e6;
+}

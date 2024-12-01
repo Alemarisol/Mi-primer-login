@@ -60,7 +60,7 @@ if ($ejecutar) {
     echo '
     <script>
     alert("Usuario registrado exitosamente");
-    window.location = "../login.php";
+    window.location = "../index.php";
     </script>
     ';
 } else {

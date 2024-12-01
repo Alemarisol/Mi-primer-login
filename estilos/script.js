@@ -62,3 +62,10 @@ anchoPage();
             caja_trasera_login.style.opacity = "1";
         }
 }
+function confirmInscription(cursoId) {
+    var confirmacion = confirm("¿Está usted seguro de inscribirse a este curso?");
+    if (confirmacion) {
+        // Redirigir al formulario de inscripción, enviando el ID del curso
+        window.location.href = "inscribir.php?id_curso=" + cursoId;
+    }
+}

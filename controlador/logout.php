@@ -6,5 +6,5 @@ session_start();
 session_destroy();
 
 // Redirige al usuario a la página de login, ya que ha cerrado sesión.
-header("location: ../login.php");
+header("location: ../index.php");
 ?>
